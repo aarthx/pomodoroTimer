@@ -60,7 +60,7 @@ function pause() {
 
 function pauseplay() {
     if (i == 0) {
-        contador = setInterval(() => {timer(); }, 1)
+        contador = setInterval(() => {timer(); }, 1000)
         document.getElementById('playpause').innerHTML = 'PAUSE'
         i++; 
     } else {
