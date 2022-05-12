@@ -5,6 +5,7 @@ html {
 }
 
 h1 {
+    position: inline-block;
     color: white;
     text-align: center;
     font-size: 100px;
