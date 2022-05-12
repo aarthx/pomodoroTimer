@@ -32,6 +32,15 @@ h1 {
 
 }
 
+.links {
+    position: block;
+}
+
+.links button {
+    position: fixed;
+    margin-left: 100px;
+}
+
 .timer  {
     font-size: 200px;
     color: white;
@@ -99,5 +108,20 @@ h1 {
     font-size: 20px;
 }
 
-
+#return {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    width: 100px;
+    padding: 15px 32px;
+    margin-right: 10px;
+    text-align: center;
+    font-style: bold;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 45px;
+    border-radius: 100px;
+    cursor:pointer;
+    box-shadow: 3px 3px black;
+}
 

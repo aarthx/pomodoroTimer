@@ -106,3 +106,7 @@ function timer() {
 function returnData(input) {
     return input >= 10 ? input : `0${input}`
 }
+
+function voltar() {
+    location.replace('https://aarthx.github.io/');
+}
